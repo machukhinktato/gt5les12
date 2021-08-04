@@ -8,7 +8,7 @@
 #include "shapes.h"
 #include "linear_gradients.h"
 #include "radial_gradient.h"
-
+#include "puff.h"
 
 int main(int argc, char *argv[]) {
     QApplication a(argc, argv);
@@ -20,8 +20,8 @@ int main(int argc, char *argv[]) {
 //    Donut window;
 //    Shapes window;
 //    LinearGradients window;
-    RadialGradient window;
-
+//    RadialGradient window;
+    Puff window;
 
     window.resize(350, 290);
     window.setWindowTitle("MACHUKHINKTATO AREA");
