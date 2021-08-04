@@ -7,6 +7,8 @@
 #include "donut.h"
 #include "shapes.h"
 #include "linear_gradients.h"
+#include "radial_gradient.h"
+
 
 int main(int argc, char *argv[]) {
     QApplication a(argc, argv);
@@ -17,7 +19,9 @@ int main(int argc, char *argv[]) {
 //    TransparentRectangle window;
 //    Donut window;
 //    Shapes window;
-    LinearGradients window;
+//    LinearGradients window;
+    RadialGradient window;
+
 
     window.resize(350, 290);
     window.setWindowTitle("MACHUKHINKTATO AREA");
