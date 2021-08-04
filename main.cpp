@@ -4,7 +4,7 @@
 #include "colours.h"
 #include "patterns.h"
 #include "transparent_rectangles.h"
-
+#include "donut.h"
 
 int main(int argc, char *argv[]) {
     QApplication a(argc, argv);
@@ -12,11 +12,13 @@ int main(int argc, char *argv[]) {
 //    Lines window;
 //    Colours window;
 //    Patterns window;
-    TransparentRectangle window;
+//    TransparentRectangle window;
+    Donut window;
 
 
-    window.resize(660, 90);
+    window.resize(350, 290);
     window.setWindowTitle("MACHUKHINKTATO AREA");
     window.show();
+
     return QApplication::exec();
 }
